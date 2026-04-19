@@ -1,4 +1,4 @@
-# FILE: 2026_Data_Science_and_Machine_Learning\examples\unsupervised_learning\PCA\README.md
+# Principal Component Analysis
 
 ```markdown
 # PCA/

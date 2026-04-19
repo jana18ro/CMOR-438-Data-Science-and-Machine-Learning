@@ -26,34 +26,15 @@ This repository serves as a complete, portfolio-ready codebase demonstrating:
 
 ## Repository Structure
 
-```
+``` bash
 2026_Data_Science_and_Machine_Learning/
 ├── .github/
 │   ├── ISSUE_TEMPLATE/
-│   │   └── bug_report.md
 │   ├── workflows/
-│   │   └── test.yml
 │   └── pull_request_template.md
 ├── examples/
 │   ├── supervised_learning/
-│   │   ├── Linear_Regression/
-│   │   ├── Logistic_Regression/
-│   │   ├── KNN/
-│   │   ├── Decision_Trees/
-│   │   ├── Regression_Trees/
-│   │   ├── Ensembles/
-│   │   ├── Perceptron/
-│   │   │   ├── perceptron_notebook.ipynb
-│   │   │   ├── Fake.csv
-│   │   │   └── True.csv
-│   │   ├── Neural_Networks/
-│   │   └── Multi_Layer_Perceptron/
 │   └── unsupervised_learning/
-│       ├── K-means/
-│       ├── DBSCAN/
-│       ├── PCA/
-│       ├── SVD/
-│       └── Label_Propagation_Community_Detection/
 ├── src/
 │   └── rice_ml/
 │       ├── supervised_learning/
@@ -66,24 +47,15 @@ This repository serves as a complete, portfolio-ready codebase demonstrating:
 │       │   ├── ensemble.py
 │       │   ├── gradient_descent.py
 │       │   ├── perceptron.py
-│       │   ├── multi_layer_perceptron.py
-│       │   └── __init__.py
+│       │   └── multi_layer_perceptron.py
 │       ├── unsupervised_learning/
 │       │   ├── kmeans.py
 │       │   ├── dbscan.py
 │       │   ├── pca.py
 │       │   ├── svd.py
-│       │   ├── label_propagation_community_detection.py
-│       │   └── __init__.py
+│       │   └── label_propagation_community_detection.py
 │       ├── processing/
-│       │   ├── preprocess.py
-│       │   ├── postprocess.py
-│       │   └── __init__.py
 │       ├── measures/
-│       │   ├── metrics.py
-│       │   ├── validation.py
-│       │   └── __init__.py
-│       └── __init__.py
 ├── tests/
 │   ├── test_linear_regression.py
 │   ├── test_logistic_regression.py
@@ -100,8 +72,7 @@ This repository serves as a complete, portfolio-ready codebase demonstrating:
 │   ├── test_multi_layer_perceptron.py
 │   ├── test_metrics.py
 │   ├── test_preprocess.py
-│   ├── test_postprocess.py
-│   └── __init__.py
+│   └── test_postprocess.py
 ├── LICENSE
 ├── README.md
 ├── requirements.txt

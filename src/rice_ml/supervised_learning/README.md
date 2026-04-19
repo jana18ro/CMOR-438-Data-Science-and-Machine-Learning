@@ -1,6 +1,4 @@
-
-
-# FILE: 2026_Data_Science_and_Machine_Learning\src\rice_ml\supervised_learning\README.md
+# Supervised Learing Models
 
 ```markdown
 # supervised_learning
