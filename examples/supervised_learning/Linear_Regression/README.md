@@ -1,4 +1,4 @@
-# FILE: 2026_Data_Science_and_Machine_Learning\examples\supervised_learning\Linear_Regression\README.md
+# Linear Regression
 
 ```markdown
 # Linear_Regression/
