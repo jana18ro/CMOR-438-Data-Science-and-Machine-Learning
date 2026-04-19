@@ -1,4 +1,4 @@
-# FILE: 2026_Data_Science_and_Machine_Learning\examples\supervised_learning\Neural_Networks\README.md
+# Neural Networks
 
 ```markdown
 # Neural_Networks/

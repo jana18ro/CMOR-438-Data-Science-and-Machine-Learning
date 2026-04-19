@@ -1,4 +1,4 @@
-# FILE: 2026_Data_Science_and_Machine_Learning\examples\unsupervised_learning\Label_Propagation_Community_Detection\README.md
+# Label Propagation Notebok
 
 ```markdown
 # Label_Propagation_Community_Detection/

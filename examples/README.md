@@ -1,4 +1,4 @@
-# FILE: 2026_Data_Science_and_Machine_Learning\examples\README.md
+# Examples: Machine Learning From Scratch
 
 ```markdown
 # examples/
@@ -14,7 +14,7 @@ Notebooks are organized into two top-level categories matching the package struc
 
 ## Structure
 
-```
+``` bash
 examples/
 ├── supervised_learning/
 │   ├── Linear_Regression/
