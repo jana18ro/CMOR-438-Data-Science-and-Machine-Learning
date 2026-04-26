@@ -1,8 +1,8 @@
-# 2026_Data_Science_and_Machine_Learning
+# 2026 CMOR 438: Data Science and Machine Learning 
 
 ---
 
-```markdown
+
 # rice_ml: A Custom Machine Learning Library from Scratch
 
 This repository hosts a custom-built machine learning package, **`rice_ml`**, developed as a core project for **CMOR 438 (Data Science and Machine Learning) at Rice University**. The project implements a comprehensive set of **supervised and unsupervised learning algorithms entirely from scratch** using Python and NumPy, alongside a rich collection of Jupyter notebooks covering classical ML, neural networks, dimensionality reduction, and more.
@@ -26,7 +26,7 @@ This repository serves as a complete, portfolio-ready codebase demonstrating:
 
 ## Repository Structure
 
-``` bash
+```bash
 2026_Data_Science_and_Machine_Learning/
 ├── .github/
 │   ├── ISSUE_TEMPLATE/
