@@ -40,6 +40,3 @@ from rice_ml.measures import accuracy_score, confusion_matrix, classification_re
 - The dataset is large (~116 MB combined). TF-IDF vocabulary is capped to control
   feature dimensionality — see notebook for the chosen `max_features` setting.
 - Training is slow on CPU for large `n_iterations`; recommended: start with 50–100 epochs.
-
-
-
