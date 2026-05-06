@@ -2,7 +2,6 @@
 
 ---
 
-
 # rice_ml: A Custom Machine Learning Library from Scratch
 
 This repository hosts a custom-built machine learning package, **`rice_ml`**, developed as a core project for **CMOR 438 (Data Science and Machine Learning) at Rice University**. The project implements a comprehensive set of **supervised and unsupervised learning algorithms entirely from scratch** using Python and NumPy, alongside a rich collection of Jupyter notebooks covering classical ML, neural networks, dimensionality reduction, and more.
@@ -133,25 +132,24 @@ All example notebooks follow a consistent workflow: **load data → explore → 
 
 | Notebook | Location | Dataset |
 |----------|----------|---------|
-| Linear & Ridge & Lasso Regression | [`examples/supervised_learning/Linear_Regression/`](examples/supervised_learning/Linear_Regression/) | Synthetic / housing data |
-| Logistic Regression | [`examples/supervised_learning/Logistic_Regression/`](examples/supervised_learning/Logistic_Regression/) | Iris, breast cancer |
-| K-Nearest Neighbours | [`examples/supervised_learning/KNN/`](examples/supervised_learning/KNN/) | Iris |
-| Decision Tree Classifier | [`examples/supervised_learning/Decision_Trees/`](examples/supervised_learning/Decision_Trees/) | Titanic, Iris |
-| Regression Tree | [`examples/supervised_learning/Regression_Trees/`](examples/supervised_learning/Regression_Trees/) | Synthetic non-linear data |
-| Ensemble Methods | [`examples/supervised_learning/Ensembles/`](examples/supervised_learning/Ensembles/) | Titanic, California housing |
-| **Perceptron — Fake News** | [`examples/supervised_learning/Perceptron/`](examples/supervised_learning/Perceptron/) | `Fake.csv` / `True.csv` |
-| Neural Networks | [`examples/supervised_learning/Neural_Networks/`](examples/supervised_learning/Neural_Networks/) | MNIST-style / XOR |
-| Multi-Layer Perceptron | [`examples/supervised_learning/Multi_Layer_Perceptron/`](examples/supervised_learning/Multi_Layer_Perceptron/) | `load_digits` |
+| Linear & Ridge & Lasso Regression | [`examples/supervised_learning/Linear_Regression/`](examples/supervised_learning/Linear_Regression/) | housing.csv |
+| Logistic Regression | [`examples/supervised_learning/Logistic_Regression/`](examples/supervised_learning/Logistic_Regression/) | cancer_data.csv |
+| K-Nearest Neighbours | [`examples/supervised_learning/KNN/`](examples/supervised_learning/KNN/) | iris.csv |
+| Decision Tree Classifier | [`examples/supervised_learning/Decision_Trees/`](examples/supervised_learning/Decision_Trees/) | iris.csv |
+| Regression Tree | [`examples/supervised_learning/Regression_Trees/`](examples/supervised_learning/Regression_Trees/) | iris.csv |
+| Ensemble Methods | [`examples/supervised_learning/Ensembles/`](examples/supervised_learning/Ensembles/) | titanic.csv |
+| Perceptron — Fake News | [`examples/supervised_learning/Perceptron/`](examples/supervised_learning/Perceptron/) | Fake.csv / True.csv |
+| Neural Networks | [`examples/supervised_learning/Neural_Networks/`](examples/supervised_learning/Neural_Networks/) | MNIST.csv |
+
 
 ### Unsupervised Learning Examples
 
 | Notebook | Location | Dataset |
 |----------|----------|---------|
-| K-Means Clustering | [`examples/unsupervised_learning/K-means/`](examples/unsupervised_learning/K-means/) | Iris, `make_blobs` |
+| K-Means Clustering | [`examples/unsupervised_learning/K-means/`](examples/unsupervised_learning/K-means/) | mall_customers.csv |
 | DBSCAN | [`examples/unsupervised_learning/DBSCAN/`](examples/unsupervised_learning/DBSCAN/) | `make_moons`, `make_circles` |
-| PCA | [`examples/unsupervised_learning/PCA/`](examples/unsupervised_learning/PCA/) | Iris (4D → 2D) |
-| SVD & Image Compression | [`examples/unsupervised_learning/SVD/`](examples/unsupervised_learning/SVD/) | Grayscale image array |
-| Label Propagation / Community Detection | [`examples/unsupervised_learning/Label_Propagation_Community_Detection/`](examples/unsupervised_learning/Label_Propagation_Community_Detection/) | Karate Club graph |
+| PCA | [`examples/unsupervised_learning/PCA/`](examples/unsupervised_learning/PCA/) | iris.csv |
+| Label Propagation / Community Detection | [`examples/unsupervised_learning/Label_Propagation_Community_Detection/`](examples/unsupervised_learning/Label_Propagation_Community_Detection/) | Synthetic datasets |
 
 ---
 
@@ -244,71 +242,3 @@ See [`requirements.txt`](requirements.txt) for the full pinned dependency list.
 
 **Author:** Jana — CMOR 438, Data Science and Machine Learning, Rice University, 2026  
 **License:** MIT License — see [`LICENSE`](LICENSE) for details.
-```
-# FILE: 2026_Data_Science_and_Machine_Learning\src\rice_ml\__init__.py
-
-```python
-"""
-rice_ml
-=======
-A from-scratch machine learning library developed for CMOR 438
-(Data Science and Machine Learning) at Rice University, 2026.
-
-This package provides clean, NumPy-based implementations of supervised and
-unsupervised learning algorithms, along with data processing utilities and
-evaluation metrics — all built without relying on scikit-learn internally.
-
-Subpackages
------------
-supervised_learning
-    Classifiers and regressors: Linear Regression, Logistic Regression,
-    KNN, Decision Trees, Regression Trees, Ensemble Methods, Perceptron, MLP.
-
-unsupervised_learning
-    Clustering and dimensionality reduction: K-Means, DBSCAN, PCA, SVD,
-    Label Propagation / Community Detection.
-
-processing
-    Data preparation utilities: StandardScaler, MinMaxScaler, OrdinalEncoder,
-    train_test_split, postprocessing helpers.
-
-measures
-    Evaluation metrics and validation: accuracy, precision, recall, F1,
-    MSE, RMSE, R², confusion matrix, k-fold cross-validation.
-
-Design Principles
------------------
-- Consistent ``fit`` / ``predict`` / ``score`` interface across all estimators.
-- Reproducibility via ``random_state`` parameters throughout.
-- Pure NumPy inside algorithm code — scikit-learn used only for datasets
-  and external metric comparisons in notebooks.
-- Vectorized operations for performance wherever possible.
-
-Examples
---------
->>> from rice_ml.supervised_learning import Perceptron
->>> from rice_ml.processing import StandardScaler, train_test_split
->>> from rice_ml.measures import accuracy_score
->>> clf = Perceptron(learning_rate=0.1, n_iterations=200, random_state=42)
->>> clf.fit(X_train, y_train)
->>> print(accuracy_score(y_test, clf.predict(X_test)))
-"""
-
-from rice_ml import supervised_learning
-from rice_ml import unsupervised_learning
-from rice_ml import processing
-from rice_ml import measures
-
-__version__ = "0.1.0"
-__author__  = "Jana"
-__license__ = "MIT"
-
-__all__ = [
-    "supervised_learning",
-    "unsupervised_learning",
-    "processing",
-    "measures",
-]
-```
-
----

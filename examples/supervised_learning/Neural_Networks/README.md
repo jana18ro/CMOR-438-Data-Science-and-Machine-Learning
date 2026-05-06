@@ -1,4 +1,4 @@
-# Neural Networks
+# Neural Networks (Multi-layer Perceptrons)
 
 ```markdown
 # Neural_Networks/
