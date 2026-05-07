@@ -1,6 +1,5 @@
 # K-means Clustering
 
-```markdown
 # K-means/
 
 Demonstrates K-Means clustering using `rice_ml.unsupervised_learning.KMeans`.
@@ -21,9 +20,7 @@ Demonstrates K-Means clustering using `rice_ml.unsupervised_learning.KMeans`.
 - **Comparison:** K-Means vs. ground-truth Iris species labels.
 
 ## Dataset
-
-- `sklearn.datasets.make_blobs` (well-separated synthetic clusters).
-- Iris dataset (natural cluster structure).
+mall_customers.csv dataset
 
 ## Key imports
 
@@ -32,6 +29,3 @@ from rice_ml.unsupervised_learning import KMeans
 from rice_ml.processing import StandardScaler
 from rice_ml.measures import accuracy_score
 ```
-```
-
----
