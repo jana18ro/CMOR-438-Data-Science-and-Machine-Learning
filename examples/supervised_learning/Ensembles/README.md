@@ -29,7 +29,6 @@ as well as manual model stacking/blending.
 ## Dataset
 
 - **Classification:** Titanic survival.
-- **Regression:** California housing (via `sklearn.datasets`).
 
 ## Key imports
 
