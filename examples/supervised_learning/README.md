@@ -24,7 +24,6 @@ Every notebook follows the same structured workflow:
 | [`Logistic_Regression/`](Logistic_Regression/) | Logistic Regression | Sigmoid, cross-entropy, decision boundary | breast cancer |
 | [`KNN/`](KNN/) | KNN Classifier & Regressor | Distance metrics, k vs. accuracy trade-off | Iris |
 | [`Decision_Trees/`](Decision_Trees/) | CART Classifier | Gini, information gain, tree visualisation | Iris |
-| [`Regression_Trees/`](Regression_Trees/) | CART Regressor | Variance reduction, depth vs. smoothness | Iris |
 | [`Ensembles/`](Ensembles/) | Random Forest, Gradient Boosting | Bagging, boosting, feature importance | Titanic |
 | [`Perceptron/`](Perceptron/) | Perceptron | Step activation, TF-IDF, MSE loss curve | Fake/Real News CSVs |
 | [`Neural_Networks/`](Neural_Networks/) | Backprop, Activations, CNNs | SGD vs Adam, dropout, weight decay | MNIST-style |
