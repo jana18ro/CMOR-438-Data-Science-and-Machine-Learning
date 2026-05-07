@@ -70,7 +70,6 @@ examples/
 | [`Logistic_Regression/`](supervised_learning/Logistic_Regression/) | Logistic Regression | breast cancer |
 | [`KNN/`](supervised_learning/KNN/) | KNN Classifier & Regressor | Iris |
 | [`Decision_Trees/`](supervised_learning/Decision_Trees/) | CART Classifier | Iris |
-| [`Regression_Trees/`](supervised_learning/Regression_Trees/) | CART Regressor | Synthetic non-linear |
 | [`Ensembles/`](supervised_learning/Ensembles/) | Random Forest, Gradient Boosting | Titanic |
 | [`Perceptron/`](supervised_learning/Perceptron/) | Single-Layer Perceptron | Fake/Real News |
 | [`Neural_Networks/`](supervised_learning/Neural_Networks/) | Backpropagation, Activations, CNNs | MNIST-style |
