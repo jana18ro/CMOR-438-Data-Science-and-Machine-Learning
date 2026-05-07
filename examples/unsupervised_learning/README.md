@@ -1,4 +1,4 @@
-# Unsupervise Learning
+# Unsupervised Learning
 
 # examples/unsupervised_learning/
 
