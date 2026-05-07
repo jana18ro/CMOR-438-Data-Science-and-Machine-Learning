@@ -1,6 +1,5 @@
 # Label Propagation Notebok
 
-```markdown
 # Label_Propagation_Community_Detection/
 
 Demonstrates graph-based community detection using
@@ -24,10 +23,7 @@ Demonstrates graph-based community detection using
   clean algorithm evaluation.
 
 ## Dataset
-
-- **Zachary's Karate Club** graph (34 nodes, 78 edges; 2 known communities).
-  Loaded via `networkx.karate_club_graph()`.
-- Synthetic stochastic block model graph with 4 planted communities.
+- Synthetic datasets
 
 ## Key imports
 
@@ -35,6 +31,3 @@ Demonstrates graph-based community detection using
 from rice_ml.unsupervised_learning import LabelPropagation
 import networkx as nx
 ```
-```
-
----
