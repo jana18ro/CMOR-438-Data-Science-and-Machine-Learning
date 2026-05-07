@@ -1,6 +1,6 @@
 # Supervised Machine Learning
 
-```markdown
+
 # examples/supervised_learning/
 
 Jupyter notebooks demonstrating the supervised learning algorithms from
@@ -20,15 +20,12 @@ Every notebook follows the same structured workflow:
 
 | Folder | Algorithm | Key Concepts | Dataset |
 |--------|-----------|-------------|---------|
-| [`Linear_Regression/`](Linear_Regression/) | OLS, Ridge, Lasso | Gradient descent, regularisation, coefficient paths | Synthetic / housing |
-| [`Logistic_Regression/`](Logistic_Regression/) | Logistic Regression | Sigmoid, cross-entropy, decision boundary | Iris, breast cancer |
+| [`Linear_Regression/`](Linear_Regression/) | OLS, Ridge, Lasso | Gradient descent, regularisation, coefficient paths | housing |
+| [`Logistic_Regression/`](Logistic_Regression/) | Logistic Regression | Sigmoid, cross-entropy, decision boundary | breast cancer |
 | [`KNN/`](KNN/) | KNN Classifier & Regressor | Distance metrics, k vs. accuracy trade-off | Iris |
-| [`Decision_Trees/`](Decision_Trees/) | CART Classifier | Gini, information gain, tree visualisation | Titanic, Iris |
-| [`Regression_Trees/`](Regression_Trees/) | CART Regressor | Variance reduction, depth vs. smoothness | Synthetic |
-| [`Ensembles/`](Ensembles/) | Random Forest, Gradient Boosting | Bagging, boosting, feature importance | Titanic, housing |
+| [`Decision_Trees/`](Decision_Trees/) | CART Classifier | Gini, information gain, tree visualisation | Iris |
+| [`Regression_Trees/`](Regression_Trees/) | CART Regressor | Variance reduction, depth vs. smoothness | Iris |
+| [`Ensembles/`](Ensembles/) | Random Forest, Gradient Boosting | Bagging, boosting, feature importance | Titanic |
 | [`Perceptron/`](Perceptron/) | Perceptron | Step activation, TF-IDF, MSE loss curve | Fake/Real News CSVs |
-| [`Neural_Networks/`](Neural_Networks/) | Backprop, Activations, CNNs | SGD vs Adam, dropout, weight decay | XOR / MNIST-style |
-| [`Multi_Layer_Perceptron/`](Multi_Layer_Perceptron/) | MLP | Hidden layers, regularisation, loss curves | `load_digits` |
+| [`Neural_Networks/`](Neural_Networks/) | Backprop, Activations, CNNs | SGD vs Adam, dropout, weight decay | MNIST-style |
 ```
-
----
