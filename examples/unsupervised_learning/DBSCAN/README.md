@@ -1,6 +1,5 @@
 # DBSCAN Clustering
 
-```markdown
 # DBSCAN/
 
 Demonstrates density-based clustering using `rice_ml.unsupervised_learning.DBSCAN`.
@@ -30,6 +29,3 @@ Demonstrates density-based clustering using `rice_ml.unsupervised_learning.DBSCA
 from rice_ml.unsupervised_learning import DBSCAN, KMeans
 from rice_ml.processing import StandardScaler
 ```
-```
-
----
