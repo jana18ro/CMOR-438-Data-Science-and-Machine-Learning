@@ -1,6 +1,5 @@
 # Metrics Folder
 
-```markdown
 # measures
 
 Model evaluation metrics and cross-validation utilities for the `rice_ml` pipeline.
