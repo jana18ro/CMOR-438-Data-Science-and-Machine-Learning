@@ -1,6 +1,5 @@
 # Linear Regression
 
-```markdown
 # Linear_Regression/
 
 Demonstrates ordinary least squares, Ridge, and Lasso regression using
@@ -21,9 +20,7 @@ Demonstrates ordinary least squares, Ridge, and Lasso regression using
 - **Model Comparison:** MSE, RMSE, and R² across OLS, Ridge, and Lasso on the same dataset.
 
 ## Dataset
-
-Synthetic regression data generated with `sklearn.datasets.make_regression`
-(controllable noise, feature count, and effective rank).
+housing.csv
 
 ## Key imports
 
@@ -32,6 +29,3 @@ from rice_ml.supervised_learning import LinearRegression, RidgeRegression, Lasso
 from rice_ml.processing import StandardScaler, train_test_split
 from rice_ml.measures import mean_squared_error, root_mean_squared_error, r2_score
 ```
-```
-
----
