@@ -1,6 +1,5 @@
 # Supervised Learing Models
 
-```markdown
 # supervised_learning
 
 From-scratch implementations of supervised learning algorithms for both
@@ -19,13 +18,6 @@ Ordinary Least Squares (OLS) regression solved via gradient descent.
 - **Attributes:** `weights_`, `bias_`, `loss_` (per-epoch MSE)
 - **Methods:** `fit`, `predict`, `score` (R²), `plot_loss`
 - **Evaluation:** MSE, RMSE, R²
-
-#### `regresion.py` — `RidgeRegression`, `LassoRegression`
-Regularised linear regression with L2 (Ridge) and L1 (Lasso) penalties.
-Controls model complexity and prevents overfitting on high-dimensional data.
-- **Key parameter:** `alpha` (regularisation strength)
-- Ridge shrinks all coefficients smoothly toward zero.
-- Lasso performs feature selection by driving sparse coefficients exactly to zero.
 
 #### `logistic_regression.py` — `LogisticRegression`
 Binary classification using sigmoid activation and cross-entropy loss,
@@ -125,5 +117,3 @@ print("F1 Score:", f1_score(y_test, y_pred))
 
 See the corresponding notebooks in [`examples/supervised_learning/`](../../../examples/supervised_learning/).
 ```
-
----
