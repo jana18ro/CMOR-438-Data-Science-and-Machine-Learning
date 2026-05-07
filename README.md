@@ -38,7 +38,6 @@ This repository serves as a complete, portfolio-ready codebase demonstrating:
 │   └── rice_ml/
 │       ├── supervised_learning/
 │       │   ├── linear_regression.py
-│       │   ├── regresion.py
 │       │   ├── logistic_regression.py
 │       │   ├── knn.py
 │       │   ├── decision_tree_classifier.py
@@ -51,7 +50,6 @@ This repository serves as a complete, portfolio-ready codebase demonstrating:
 │       │   ├── kmeans.py
 │       │   ├── dbscan.py
 │       │   ├── pca.py
-│       │   ├── svd.py
 │       │   └── label_propagation_community_detection.py
 │       ├── processing/
 │       ├── measures/
@@ -65,7 +63,6 @@ This repository serves as a complete, portfolio-ready codebase demonstrating:
 │   ├── test_kmeans.py
 │   ├── test_dbscan.py
 │   ├── test_pca.py
-│   ├── test_svd.py
 │   ├── test_label_propagation_community_detection.py
 │   ├── test_perceptron.py
 │   ├── test_multi_layer_perceptron.py
@@ -110,7 +107,6 @@ Implemented in [`src/rice_ml/unsupervised_learning/`](src/rice_ml/unsupervised_l
 | **K-Means** | `kmeans.py` | Centroid-based clustering with inertia and elbow-method support |
 | **DBSCAN** | `dbscan.py` | Density-based clustering for arbitrarily shaped clusters and noise detection |
 | **PCA** | `pca.py` | Principal Component Analysis via eigen-decomposition; explained variance analysis |
-| **SVD** | `svd.py` | Singular Value Decomposition for dimensionality reduction and image compression |
 | **Label Propagation** | `label_propagation_community_detection.py` | Graph-based community detection via iterative neighbourhood label spreading |
 
 ### Data Processing & Evaluation
