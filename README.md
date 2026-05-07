@@ -132,7 +132,6 @@ All example notebooks follow a consistent workflow: **load data → explore → 
 | Logistic Regression | [`examples/supervised_learning/Logistic_Regression/`](examples/supervised_learning/Logistic_Regression/) | cancer_data.csv |
 | K-Nearest Neighbours | [`examples/supervised_learning/KNN/`](examples/supervised_learning/KNN/) | iris.csv |
 | Decision Tree Classifier | [`examples/supervised_learning/Decision_Trees/`](examples/supervised_learning/Decision_Trees/) | iris.csv |
-| Regression Tree | [`examples/supervised_learning/Regression_Trees/`](examples/supervised_learning/Regression_Trees/) | iris.csv |
 | Ensemble Methods | [`examples/supervised_learning/Ensembles/`](examples/supervised_learning/Ensembles/) | titanic.csv |
 | Perceptron — Fake News | [`examples/supervised_learning/Perceptron/`](examples/supervised_learning/Perceptron/) | Fake.csv / True.csv |
 | Neural Networks | [`examples/supervised_learning/Neural_Networks/`](examples/supervised_learning/Neural_Networks/) | MNIST.csv |
