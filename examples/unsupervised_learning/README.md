@@ -1,6 +1,5 @@
 # Unsupervise Learning
 
-```markdown
 # examples/unsupervised_learning/
 
 Jupyter notebooks demonstrating the unsupervised learning algorithms from
@@ -15,11 +14,8 @@ hyperparameter sensitivity analysis, and result visualisation.
 
 | Folder | Algorithm | Key Concepts | Dataset |
 |--------|-----------|-------------|---------|
-| [`K-means/`](K-means/) | K-Means Clustering | Lloyd's algorithm, inertia, elbow method | Iris, `make_blobs` |
+| [`K-means/`](K-means/) | K-Means Clustering | Lloyd's algorithm, inertia, elbow method | mall customers |
 | [`DBSCAN/`](DBSCAN/) | Density-Based Clustering | ε, min_samples, noise points, arbitrary shapes | `make_moons`, `make_circles` |
 | [`PCA/`](PCA/) | Principal Component Analysis | Eigenvectors, explained variance, scree plot | Iris (4D → 2D) |
-| [`SVD/`](SVD/) | Singular Value Decomposition | Rank-k approximation, image compression | Grayscale image array |
-| [`Label_Propagation_Community_Detection/`](Label_Propagation_Community_Detection/) | Community Detection | Graph adjacency, label spreading, convergence | Karate Club graph |
+| [`Label_Propagation_Community_Detection/`](Label_Propagation_Community_Detection/) | Community Detection | Graph adjacency, label spreading, convergence | Synthetic |
 ```
-
----
