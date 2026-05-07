@@ -1,6 +1,5 @@
 # Test Suite
 
-```markdown
 # tests/
 
 This directory contains the full unit test suite for the `rice_ml` package,
