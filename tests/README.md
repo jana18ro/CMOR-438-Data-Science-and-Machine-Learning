@@ -48,7 +48,6 @@ pull request via [GitHub Actions](../.github/workflows/test.yml).
 | `test_kmeans.py` | Centroid convergence, label assignment, inertia monotonicity |
 | `test_dbscan.py` | Cluster labels, noise detection (`-1`), core sample identification |
 | `test_pca.py` | Explained variance ratios sum ≤ 1, correct `n_components` in output |
-| `test_svd.py` | Reconstruction accuracy at various ranks, shape correctness |
 | `test_label_propagation_community_detection.py` | Label stability at convergence, community count |
 | `test_perceptron.py` | Weight updates, step activation, `plot_loss`, `confusion_matrix` |
 | `test_multi_layer_perceptron.py` | Forward pass shapes, loss decrease over epochs, dropout masking |
@@ -79,5 +78,3 @@ pull request via [GitHub Actions](../.github/workflows/test.yml).
 4. Use small synthetic data — avoid loading real datasets in unit tests.
 5. Run `pytest -v` to verify your tests are discovered and passing.
 ```
-
----
