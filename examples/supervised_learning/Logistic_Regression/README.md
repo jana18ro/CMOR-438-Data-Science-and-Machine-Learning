@@ -1,8 +1,5 @@
 # Logistic Regression
 
-```markdown
-# Logistic_Regression/
-
 Demonstrates binary and multi-class classification using
 `rice_ml.supervised_learning.LogisticRegression`.
 
@@ -20,9 +17,7 @@ Demonstrates binary and multi-class classification using
 - Comparison with a baseline (majority-class) classifier.
 
 ## Dataset
-
-- **Binary:** Synthetic two-class dataset with `make_classification`.
-- **Multi-class:** Iris dataset (one-vs-rest strategy).
+cancer_data.csv
 
 ## Key imports
 
@@ -31,6 +26,3 @@ from rice_ml.supervised_learning import LogisticRegression
 from rice_ml.processing import StandardScaler, train_test_split
 from rice_ml.measures import accuracy_score, f1_score, confusion_matrix, classification_report
 ```
-```
-
----
