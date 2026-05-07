@@ -1,6 +1,5 @@
 # Ensemble Models
 
-```markdown
 # Ensembles/
 
 Demonstrates ensemble methods — Random Forest and Gradient Boosting —
@@ -40,5 +39,3 @@ from rice_ml.processing import OrdinalEncoder, StandardScaler, train_test_split
 from rice_ml.measures import accuracy_score, r2_score, cross_val_score
 ```
 ```
-
----
