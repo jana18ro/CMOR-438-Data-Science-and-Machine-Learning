@@ -1,6 +1,5 @@
 # Decision Trees Classifier
 
-```markdown
 # Decision_Trees/
 
 Demonstrates the CART decision tree classifier using
@@ -32,5 +31,3 @@ from rice_ml.processing import OrdinalEncoder, train_test_split
 from rice_ml.measures import accuracy_score, confusion_matrix, classification_report
 ```
 ```
-
----
