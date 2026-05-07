@@ -1,6 +1,5 @@
 # K-Nearest Neighbors
 
-```markdown
 # KNN/
 
 Demonstrates K-Nearest Neighbours classification and regression using
@@ -22,7 +21,6 @@ Demonstrates K-Nearest Neighbours classification and regression using
 ## Dataset
 
 - **Classification:** Iris dataset (4 features, 3 classes).
-- **Regression:** Synthetic sinusoidal data with noise.
 
 ## Key imports
 
@@ -31,6 +29,3 @@ from rice_ml.supervised_learning import KNNClassifier, KNNRegressor
 from rice_ml.processing import StandardScaler, train_test_split
 from rice_ml.measures import accuracy_score, mean_squared_error, r2_score
 ```
-```
-
----
