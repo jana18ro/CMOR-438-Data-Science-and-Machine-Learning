@@ -16,7 +16,6 @@ Learning) at Rice University**.
 rice_ml/
 ├── supervised_learning/      # Classifiers and regressors
 │   ├── linear_regression.py
-│   ├── regresion.py          # Ridge and Lasso
 │   ├── logistic_regression.py
 │   ├── knn.py
 │   ├── decision_tree_classifier.py
@@ -30,7 +29,6 @@ rice_ml/
 │   ├── kmeans.py
 │   ├── dbscan.py
 │   ├── pca.py
-│   ├── svd.py
 │   ├── label_propagation_community_detection.py
 │   └── __init__.py
 ├── processing/               # Data preparation utilities
