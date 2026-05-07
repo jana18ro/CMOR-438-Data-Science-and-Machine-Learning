@@ -1,0 +1,16 @@
+# Core numerical and data libraries
+numpy>=1.23
+pandas>=1.5
+matplotlib>=3.6
+
+# Used for datasets, examples, and comparison checks.
+# The package's algorithm implementations should remain from scratch.
+scikit-learn>=1.2
+
+# Notebook support
+jupyter>=1.0
+ipykernel>=6.0
+
+# Testing
+pytest>=7.0
+pytest-cov>=4.0
