@@ -39,7 +39,7 @@ import pytest
 import matplotlib
 matplotlib.use("Agg")          # non-interactive backend; safe for CI
 
-from perceptron import Perceptron
+from rice_ml.supervised_learning.perceptron import Perceptron
 
 
 # ===========================================================================

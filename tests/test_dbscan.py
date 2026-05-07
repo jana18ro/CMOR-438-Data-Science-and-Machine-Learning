@@ -25,8 +25,8 @@ Covers:
 import numpy as np
 import pytest
 import sys, os
-sys.path.insert(0, r"/home/claude/project/2026_Data_Science_and_Machine_Learning/src/rice_ml/unsupervised_learning")
-from dbscan import dbscan
+sys.path.insert(0, r"/Jana CMOR/2026_Data_Science_and_Machine_Learning/src/rice_ml/unsupervised_learning")
+from rice_ml.unsupervised_learning.dbscan import dbscan
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -287,14 +287,14 @@ class TestFitAttributes:
     def test_core_sample_indices_sorted(self, two_cluster_data):
         m = dbscan(eps=0.35, min_samples=2)
         m.fit(two_cluster_data)
-        assert list(m.core_sample_indices_) == sorted(m.core_sample_indices_)
+        assert list(m.core_sample_indices_) == sorted(m.core_sample_indices_) # type: ignore
 
     def test_core_sample_indices_in_valid_range(self, two_cluster_data):
         m = dbscan(eps=0.35, min_samples=2)
         m.fit(two_cluster_data)
         n = len(two_cluster_data)
         assert np.all(m.core_sample_indices_ >= 0)
-        assert np.all(m.core_sample_indices_ < n)
+        assert np.all(m.core_sample_indices_ < n) # type: ignore
 
     def test_n_clusters_set_after_fit(self, two_cluster_data):
         m = dbscan(eps=0.35, min_samples=2)

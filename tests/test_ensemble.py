@@ -20,12 +20,12 @@ Covers:
 import numpy as np
 import pytest
 import sys, os
-sys.path.insert(0, r"/home/claude/project/2026_Data_Science_and_Machine_Learning/src/rice_ml/supervised_learning")
-from ensemble import (hard_voting_classifier, bagging_classifier,
+sys.path.insert(0, r"/Jana CMOR/2026_Data_Science_and_Machine_Learning/src/rice_ml/supervised_learning")
+from rice_ml.supervised_learning.ensemble import (hard_voting_classifier, bagging_classifier,
                       random_forest_classifier, _ensemble_tree_classifier)
-from decision_tree_classifier import decision_tree_classifier
-from knn import KNN
-from logistic_regression import LogisticRegression
+from rice_ml.supervised_learning.decision_tree_classifier import decision_tree_classifier
+from rice_ml.supervised_learning.knn import KNN
+from rice_ml.supervised_learning.logistic_regression import LogisticRegression
 
 
 # ─────────────────────────────────────────────────────────────────────────────

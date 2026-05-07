@@ -59,7 +59,7 @@ def test_standard_scaler_handles_constant_columns():
     X_scaled = scaler.fit_transform(X)
 
     assert np.allclose(X_scaled[:, 1], np.zeros(3))
-    assert scaler.scale_[1] == pytest.approx(1.0)
+    assert scaler.scale_[1] == pytest.approx(1.0) # type: ignore
 
 
 def test_minmax_scaler_default_range():
@@ -129,7 +129,7 @@ def test_train_test_split_returns_aligned_arrays():
     X = np.arange(20).reshape(10, 2)
     y = np.arange(10)
 
-    X_train, X_test, y_train, y_test = train_test_split(
+    X_train, X_test, y_train, y_test = train_test_split( # type: ignore
         X,
         y,
         test_size=0.3,
@@ -145,7 +145,7 @@ def test_train_test_split_returns_aligned_arrays():
 def test_train_test_split_without_y_returns_two_arrays():
     X = np.arange(12).reshape(6, 2)
 
-    X_train, X_test = train_test_split(X, test_size=0.5, random_state=1)
+    X_train, X_test = train_test_split(X, test_size=0.5, random_state=1) # type: ignore
 
     assert len(X_train) + len(X_test) == len(X)
 
@@ -154,7 +154,7 @@ def test_train_test_split_stratify_preserves_both_classes():
     X = np.arange(20).reshape(10, 2)
     y = np.array([0, 0, 0, 0, 0, 1, 1, 1, 1, 1])
 
-    X_train, X_test, y_train, y_test = train_test_split(
+    X_train, X_test, y_train, y_test = train_test_split( # type: ignore
         X,
         y,
         test_size=0.4,

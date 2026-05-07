@@ -20,8 +20,8 @@ Covers:
 import numpy as np
 import pytest
 import sys, os
-sys.path.insert(0, r"/home/claude/project/2026_Data_Science_and_Machine_Learning/src/rice_ml/supervised_learning")
-from multi_layer_perceptron import multi_layer_perceptron
+sys.path.insert(0, r"/Jana CMOR/2026_Data_Science_and_Machine_Learning/src/rice_ml/supervised_learning")
+from rice_ml.supervised_learning.multi_layer_perceptron import multi_layer_perceptron
 
 
 # ─────────────────────────────────────────────────────────────────────────────

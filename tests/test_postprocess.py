@@ -33,8 +33,8 @@ def test_apply_threshold_custom_labels():
     labels = apply_threshold(
         probabilities,
         threshold=0.7,
-        positive_label="yes",
-        negative_label="no",
+        positive_label = "yes",
+        negative_label = "no",
     )
 
     assert np.array_equal(labels, np.array(["no", "yes"]))

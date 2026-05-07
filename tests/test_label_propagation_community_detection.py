@@ -27,8 +27,8 @@ Covers:
 import numpy as np
 import pytest
 import sys, os
-sys.path.insert(0, r"/home/claude/project/2026_Data_Science_and_Machine_Learning/src/rice_ml/unsupervised_learning")
-from label_propagation_community_detection import label_propagation_community_detection as LPCD
+sys.path.insert(0, r"/Jana CMOR/2026_Data_Science_and_Machine_Learning/src/rice_ml/unsupervised_learning")
+from rice_ml.unsupervised_learning.label_propagation_community_detection import label_propagation_community_detection as LPCD
 
 
 # ─────────────────────────────────────────────────────────────────────────────

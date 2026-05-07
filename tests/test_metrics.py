@@ -29,12 +29,12 @@ import sys
 import os
 
 # Allow running from the project root OR from inside the measures/ directory.
-sys.path.insert(0, r"/home/claude/project/2026_Data_Science_and_Machine_Learning/src/rice_ml/measures")
+sys.path.insert(0, r"/Jana CMOR/2026_Data_Science_and_Machine_Learning/src/rice_ml/measures")
 
 import numpy as np
 import pytest
 
-from metrics import (
+from rice_ml.measures.metrics import (
     # classification
     accuracy_score,
     precision_score,
@@ -55,7 +55,7 @@ from metrics import (
     rmse,
     mae,
 )
-from validation import (
+from rice_ml.measures.validation import (
     k_fold_indices,
     cross_val_score,
     stratified_split,
