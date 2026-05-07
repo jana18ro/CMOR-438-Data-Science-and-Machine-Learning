@@ -1,6 +1,5 @@
 # Principal Component Analysis
 
-```markdown
 # PCA/
 
 Demonstrates Principal Component Analysis using `rice_ml.unsupervised_learning.PCA`.
@@ -34,6 +33,3 @@ from rice_ml.processing import StandardScaler, train_test_split
 from rice_ml.supervised_learning import LogisticRegression
 from rice_ml.measures import accuracy_score
 ```
-```
-
----
