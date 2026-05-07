@@ -1,8 +1,5 @@
 # Neural Networks (Multi-layer Perceptrons)
 
-```markdown
-# Neural_Networks/
-
 Introduction to feed-forward neural networks — activation functions,
 backpropagation, optimisation, convolutional neural networks (CNNs), and
 regularisation techniques.
@@ -29,7 +26,6 @@ regularisation techniques.
 
 ## Dataset
 
-- XOR problem (illustrates need for non-linear activations).
 - MNIST-style digit patches (for CNN introductory demo).
 
 ## Key imports
@@ -39,6 +35,3 @@ from rice_ml.supervised_learning import MLP
 from rice_ml.processing import StandardScaler, train_test_split
 from rice_ml.measures import accuracy_score, cross_val_score
 ```
-```
-
----
