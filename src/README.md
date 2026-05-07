@@ -1,6 +1,6 @@
 # Source Folder
 
-```markdown
+
 # src/
 
 This directory contains the full source code for the `rice_ml` package — a custom,
@@ -45,5 +45,3 @@ from rice_ml.measures import accuracy_score, r2_score
 - `random_state` parameters are used throughout for full reproducibility.
 - See the [`rice_ml/` README](rice_ml/README.md) for a full capability overview.
 ```
-
----
