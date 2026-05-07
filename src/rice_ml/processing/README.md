@@ -1,6 +1,5 @@
 # Processing Utilities
 
-```markdown
 # processing
 
 Data preprocessing and postprocessing utilities for the `rice_ml` pipeline.
@@ -74,5 +73,3 @@ a provided dictionary mapping.
 Wraps a prediction array in a `pandas.Series` with a provided index for
 clean tabular output and downstream compatibility.
 ```
-
----
