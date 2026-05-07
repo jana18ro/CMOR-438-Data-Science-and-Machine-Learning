@@ -1,6 +1,5 @@
 # Unsupervised Learning Model
 
-```markdown
 # unsupervised_learning
 
 From-scratch implementations of unsupervised learning algorithms for clustering,
@@ -43,14 +42,6 @@ Finds the directions (principal components) of maximum variance in the data.
 - **Methods:** `fit`, `transform`, `fit_transform`, `inverse_transform`
 - **Use cases:** Visualisation (4D → 2D), noise reduction, preprocessing for other models.
 
-#### `svd.py` — `SVD`
-Singular Value Decomposition: factorises matrix A into U Σ Vᵀ.
-Supports truncated (rank-k) approximation for dimensionality reduction and
-image compression demonstrations.
-- **Parameters:** `n_components`
-- **Attributes:** `U_`, `sigma_`, `Vt_`, `explained_variance_ratio_`
-- **Methods:** `fit`, `transform`, `fit_transform`, `reconstruct`
-
 ---
 
 ### Graph Analysis
@@ -90,5 +81,3 @@ print("Inertia:", kmeans.inertia_)
 
 See the corresponding notebooks in [`examples/unsupervised_learning/`](../../../examples/unsupervised_learning/).
 ```
-
----
