@@ -1,7 +1,6 @@
 
 # Rice Machine Learning Package
 
-```markdown
 # rice_ml
 
 `rice_ml` is a from-scratch machine learning library implementing a comprehensive
@@ -13,7 +12,7 @@ Learning) at Rice University**.
 
 ## Package Overview
 
-```
+``` bash
 rice_ml/
 ├── supervised_learning/      # Classifiers and regressors
 │   ├── linear_regression.py
@@ -102,6 +101,3 @@ from rice_ml.processing import StandardScaler, MinMaxScaler, OrdinalEncoder, tra
 # Metrics
 from rice_ml.measures import accuracy_score, f1_score, r2_score, cross_val_score
 ```
-```
-
----
