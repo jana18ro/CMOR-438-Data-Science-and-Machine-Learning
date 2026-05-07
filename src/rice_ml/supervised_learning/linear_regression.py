@@ -30,7 +30,7 @@ from typing import Optional, Sequence, Union
 import numpy as np
 import matplotlib.pyplot as plt
 
-from gradient_descent import GradientDescent
+from .gradient_descent import GradientDescent
 
 ArrayLike = Union[np.ndarray, Sequence[float]]
 
